@@ -1,0 +1,130 @@
+body{
+    background-image: url('1.jfif');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#main{
+    width:80%;
+    margin:1em auto;
+    background-color:rgb(87, 170, 197);
+    border-radius: 20px;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#part1{
+    width:80%;
+    margin: 1em auto 3em;
+}
+
+#todo,#done{
+    width:80%;
+    margin:5em auto;
+}
+
+
+
+#add_list{
+    border-radius: 15px;
+    border:3px solid #ffee53;
+    width:80%;
+    height:50px;
+    color:#555;
+    font-size: 23px;
+}
+
+#clearbutton{
+    margin-left: 20px;
+    border-radius: 15px;
+    border:2px solid #ffee53;
+    background-color: rgb(245, 232, 121);
+    height:55px;
+    font-size:20px;
+    width:120px;
+    cursor: pointer;
+}
+
+h1{
+    color:rgb(240, 225, 14) ;
+}
+
+h2{
+    color:#466181;
+    font-size: 25px;
+    display: inline;
+}
+
+
+li {
+    position: relative;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 0 10px;
+    height: 50px;
+    box-shadow: 0 1px 0 #e6dc5a;
+    line-height: 35px;
+    background-color: hsl(46, 100%, 77%);
+    list-style: none;
+    font-size:24px;
+  }
+
+  ol li input {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+
+  ol li p {
+    top:12px;
+    margin-left:35px;
+    font-size:24px;
+  }
+  
+  ol li p input{
+    top: 12px;
+    margin-left: 35px;
+    width: 70%;
+    height:24px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  
+  ol li a {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+    border: 1px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 45px;
+    text-align:center;
+    line-height: 15px;
+    color: red;
+    font-weight: 800;
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+  }
+
+span{
+    display: block;
+    float:right;
+    text-align: right;
+}
+
+
+.edit{
+  top: 12px;
+    margin-left: 35px;
+    width: 70%;
+    height:24px;
+    font-size: 24px;
+    line-height: 24px;
+}
